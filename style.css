@@ -1,0 +1,64 @@
+.Title
+{
+    background-color: rgb(255, 204, 0);
+    text-align: center;
+    margin:0;
+    padding: 3px;
+}
+.Sub
+{
+    background-color: chartreuse;
+    margin:0px;
+    padding: 3px;
+    text-align: center;
+}
+
+#text {
+  font-family: "Playwrite BE VLG", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.Para
+{
+    background-color: cornflowerblue;
+    text-align: center;
+    margin: 15px;
+    padding: 3px;
+    font-size: 20px;
+}
+
+.flex-container
+{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Anime
+{
+    width: 25%;
+}
+
+.image
+{
+    width: 100%;
+}
+
+.Name
+{
+    font-family: "Playwrite BE VLG", cursive;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    text-align: center;
+}
+
+.Bottom
+{
+    background-color: chocolate;
+    text-align: center;
+    padding: 3px;
+}
