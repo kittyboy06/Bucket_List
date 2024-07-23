@@ -34,17 +34,19 @@
     
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 .Anime
 {
-    width: 25%;
+    flex-basis: 250px;
+    min-width: 100px;
+    max-width: 400px;
 }
 
 .image
 {
-    width: 100%;
+    width: 90%;
 }
 
 .Name
@@ -61,4 +63,10 @@
     background-color: chocolate;
     text-align: center;
     padding: 3px;
+}
+
+#k
+{
+    text-decoration: none;
+    color: black;
 }
